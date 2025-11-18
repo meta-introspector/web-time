@@ -1,10 +1,10 @@
-[workspace]
+#[workspace]
 
 [package]
 edition = "2021"
 name = "minimal-versions"
 publish = false
-rust-version = "1.60"
+# rust-version = "1.60"
 version = "0.0.0"
 
 [features]

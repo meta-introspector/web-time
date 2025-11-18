@@ -1,11 +1,11 @@
-[workspace]
+#[workspace]
 
 [package]
 edition = "2021"
 name = "resolver"
 publish = false
 resolver = "1"
-rust-version = "1.60"
+# rust-version = "1.60"
 version = "0.0.0"
 
 [features]
