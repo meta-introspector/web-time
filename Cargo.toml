@@ -41,22 +41,22 @@ wasm-bindgen-test = { version = "0.3", default-features = false, features = [
 	"unstable-test-coverage",
 ] }
 
-[patch.crates-io]
-getrandom = { git = "https://github.com/daxpedda/getrandom", branch = "web-time" }
-js-sys = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
-minicov = { git = "https://github.com/daxpedda/minicov", branch = "web-time" }
-serde_test = { git = "https://github.com/daxpedda/test", branch = "no_std" }
-wasm-bindgen = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
-wasm-bindgen-futures = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
-wasm-bindgen-test = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
-web-sys = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
+# [patch.crates-io]
+# getrandom = { git = "https://github.com/daxpedda/getrandom", branch = "web-time" }
+# js-sys = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
+# minicov = { git = "https://github.com/daxpedda/minicov", branch = "web-time" }
+# serde_test = { git = "https://github.com/daxpedda/test", branch = "no_std" }
+# wasm-bindgen = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
+# wasm-bindgen-futures = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
+# wasm-bindgen-test = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
+# web-sys = { git = "https://github.com/daxpedda/wasm-bindgen", branch = "web-time" }
 
-[profile.test]
-opt-level = 1
+# [profile.test]
+# opt-level = 1
 
-[profile.bench]
-codegen-units = 1
-lto = true
+# [profile.bench]
+# codegen-units = 1
+# lto = true
 
 [lib]
 bench = false
